@@ -102,56 +102,56 @@ This explains why:
 
 ## Requirements
 
-```bash
 pip install torch pandas numpy matplotlib seaborn scikit-learn scipy
-How to Run
-Clone this repository
 
-Download the data files to the same directory
+---
+## How to Run
 
-Open IsothermNet_Reproduction.ipynb in Jupyter
+1. Clone this repository
+2. Download the data files to the same directory
+3. Open IsothermNet_Reproduction.ipynb in Jupyter
+4. Run all cells
 
-Run all cells
+---
 
-Data Files
-File	Shape	Description
-texturalProperties_vol.xlsx	(5394, 8)	MOF IDs + 7 textural features
-y_dataset19.pth	(5394, 19)	CO₂ uptake at 19 pressures
-Pressure Points
-Column	Pressure	Column	Pressure
-0	0.01 bar	10	10 bar
-1	0.05 bar	11	15 bar
-2	0.1 bar	12	20 bar
-3	0.5 bar	13	25 bar
-4	1.0 bar	14	30 bar
-5	2.0 bar	15	35 bar
-6	3.0 bar	16	40 bar
-7	4.0 bar	17	45 bar
-8	5.0 bar	18	50 bar
-9	7.0 bar		
-Limitations
-Low pressure (<1 bar) may require atomic features
+## Data Files
 
-Heat of adsorption not tested
+| File | Shape | Description |
+|------|-------|-------------|
+| texturalProperties_vol.xlsx | (5394, 8) | MOF IDs + 7 textural features |
+| y_dataset19.pth | (5394, 19) | CO₂ uptake at 19 pressures |
 
-Results on QMOF database only
+## Pressure Points
 
-Citation
-bibtex
-@misc{Safarifard2026,
-  author = {Vahid Safarifard},
-  title = {Simple Baselines for CO₂ Uptake Prediction in MOFs},
-  year = {2026},
-  publisher = {GitHub},
-  url = {https://github.com/vahidsafarifard/MOF-CO2-baseline}
-}
-License
+| Column | Pressure (bar) | Column | Pressure (bar) |
+|--------|----------------|--------|----------------|
+| 0 | 0.01 | 10 | 10 |
+| 1 | 0.05 | 11 | 15 |
+| 2 | 0.1 | 12 | 20 |
+| 3 | 0.5 | 13 | 25 |
+| 4 | 1.0 | 14 | 30 |
+| 5 | 2.0 | 15 | 35 |
+| 6 | 3.0 | 16 | 40 |
+| 7 | 4.0 | 17 | 45 |
+| 8 | 5.0 | 18 | 50 |
+| 9 | 7.0 | | |		
+
+## Limitations
+
+- Low pressure (<1 bar) may require atomic features
+- Heat of adsorption not tested
+- Results on QMOF database only
+
+## Citation
+
+Repository: https://github.com/vahidsafarifard/MOF-CO2-baseline
+
+## License
 MIT License
 
-Contact
-[Your Email]
+## Contact
+[linkedin](https://www.linkedin.com/in/vahid-safarifard-018206153/)
 
-Acknowledgments
-QMOF database for MOF structures
-
-IsothermNet authors for public data
+## Acknowledgments
+- QMOF database for MOF structures
+- IsothermNet authors for public data
