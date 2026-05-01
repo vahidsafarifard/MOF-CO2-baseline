@@ -25,6 +25,18 @@ Using only **7 textural properties** and a **Random Forest**:
 | 1 bar | Random Forest | 0.8926 | 15.3 | 0.79 |
 
 ---
+## Original Work
+
+This study reproduces and extends the work of:
+
+> Emily Lin, Yang Zhong, Gang Chen & Sili Deng.  
+> *Unified physio-thermodynamic descriptors via learned CO₂ adsorption properties in metal-organic frameworks.*  
+> **npj Computational Materials**, 11, 225 (2025).  
+> https://doi.org/10.1038/s41524-025-01700-8
+
+All data used in this study comes from the authors' public repository.
+
+---
 
 ## Key Finding
 
@@ -154,4 +166,4 @@ MIT License
 
 ## Acknowledgments
 - QMOF database for MOF structures
-- IsothermNet authors for public data
+- **IsothermNet authors (Lin et al., npj Comput Mater 2025) for making data publicly available**
